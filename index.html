@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <title>Duke Jets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/aos.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+    <header class="fixed-top">
+        <div class="topbar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <div class="social-icon">
+                            <a><i class="fa fa-facebook"></i></a>
+                            <a><i class="fa fa-google-plus"></i></a>
+                            <a><i class="fa fa-instagram"></i></a>
+                            <a><i class="fa fa-youtube"></i></a>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-8">
+                        <div class="con-information">
+                            <div class="phone-call">
+                                <a href="tel:91 98253 53267"><img src="images/phone.svg" alt="phone">91 98253 53267,</a><a href="tel:99251 77600">99251 77600</a>
+
+                            </div>
+                            <div class="mail-box">
+                                <a href="mailto:info@bluestoneworldwide.com"><img src="images/mail.svg" alt="phone">info@bluestoneworldwide.com</a>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mid-headder">
+            <div class="nav-area">
+                <div class="container">
+                  <div class="cover-nav">
+                    <div class="logo"> <img src="images/logo.svg" alt="logo"/> </div>  
+                    <a href="javascript:void(0)" id="pull">
+                      <div class="hamburger hamburger--spring">
+                        <div class="hamburger-box">
+                          <div class="hamburger-inner"></div>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="nav">
+                      <ul id="menu-bg">
+                        <li><a href=""> Home</a></li> 
+                        <li><a href=""> About Us</a></li>
+                        <li><a href=""> Services </a></li>
+                        <li><a href=""> Charter Flight</a></li>
+                        <li><a href=""> Contact Us </a></li>
+                        <li><a class="request-quote" href=""> Request a quote </a></li> 
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content-area">
+                <h4>Welcome to</h4>
+                <h1>Duke Jets Service</h1>
+                <div class="tab">
+                    <ul class="nav nav-tabs">
+                      <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#menu1">One way flight</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#menu2">Round Trip</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#menu3">Multi Leg</a>
+                      </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div id="menu1" class="tab-pane active">
+                          <h3>On Demand Charter</h3>
+                          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                          <form>
+                            <div class="row">
+                                <div class="col-md-3 input-from">
+                                    <input type="text" name="from" class="form-control" placeholder="From">
+                                </div>
+                                <div class="col-md-3 input-to">
+                                    <input type="text" name="to" class="form-control input-to" placeholder="To">
+                                </div>
+                                <div class="col-md-2 input-date">
+                                    <input type="text" id="datepicker" class="form-control" placeholder="Departure Date">
+                                </div>
+                                <div class="col-md-2">
+                                    <input type="time" class="form-control" placeholder="from" />
+                                </div>
+                                 <div class="col-md-2 select-box">
+                                    <select class="form-control">
+                                        <option>Passengers</option>
+                                        <option>Passengers 1</option>
+                                        <option>Passengers 2</option>
+                                        <option>Passengers 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 mt-3">
+                                    <input type="submit" name="submit" class="btn btn-success" value="Submit">
+                                </div>
+                            </div>
+                          </form>
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                           <h3>On Demand Charter</h3>
+                          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                          <form>
+                            <div class="row">
+                                <div class="col-md-3 input-from">
+                                    <input type="text" name="from" class="form-control" placeholder="From">
+                                </div>
+                                <div class="col-md-3 input-to">
+                                    <input type="text" name="to" class="form-control input-to" placeholder="To">
+                                </div>
+                                <div class="col-md-2 input-date">
+                                    <input type="text" id="datepicker" class="form-control" placeholder="Departure Date">
+                                </div>
+                                <div class="col-md-2">
+                                    <input type="time" class="form-control" placeholder="from" />
+                                </div>
+                                 <div class="col-md-2 select-box">
+                                    <select class="form-control">
+                                        <option>Passengers</option>
+                                        <option>Passengers 1</option>
+                                        <option>Passengers 2</option>
+                                        <option>Passengers 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 mt-3">
+                                    <input type="submit" name="submit" class="btn btn-success" value="Submit">
+                                </div>
+                            </div>
+                          </form>
+                        </div>
+                        <div id="menu3" class="tab-pane fade">
+                           <h3>On Demand Charter</h3>
+                          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                          <form>
+                            <div class="row">
+                                <div class="col-md-3 input-from">
+                                    <input type="text" name="from" class="form-control" placeholder="From">
+                                </div>
+                                <div class="col-md-3 input-to">
+                                    <input type="text" name="to" class="form-control input-to" placeholder="To">
+                                </div>
+                                <div class="col-md-2 input-date">
+                                    <input type="text" id="datepicker" class="form-control" placeholder="Departure Date">
+                                </div>
+                                <div class="col-md-2">
+                                    <input type="time" class="form-control" placeholder="from" />
+                                </div>
+                                 <div class="col-md-2 select-box">
+                                    <select class="form-control">
+                                        <option>Passengers</option>
+                                        <option>Passengers 1</option>
+                                        <option>Passengers 2</option>
+                                        <option>Passengers 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 mt-3">
+                                    <input type="submit" name="submit" class="btn btn-success" value="Submit">
+                                </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-us-left">
+                        <span>ABOUT US</span>
+                        <h2>On-Demand Charter</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-primary btn-contact mt-4">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-us-right">
+                       <div class="row">
+                            <div class="col-md-6">
+                                <div class="zoom">
+                                    <img src="images/about1.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="zoom">
+                                    <img src="images/about2.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-4">
+                                <div class="zoom">
+                                    <img src="images/about3.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="service-top text-center">
+                        <span>SERVICES</span>
+                        <h3 class="text-white">What We Provide</h3>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
+                    <div class="service-slider mt-4 pt-3">
+                            <div class="row">
+                                <div class="owl-carousel owl-theme" id="service-items">
+                                    <div class="item service-box">
+                                        <div class="service-grid">
+                                            <img src="images/service-slider1.png" alt="">
+                                            <div class="service-grid-content text-center">
+                                                <h3 class="text-center">Private Jet Charter</h3>
+                                            </div>
+                                            <div class="service-grid-content-hover">
+                                                <div class="hover-content">
+                                                    <h3 class="text-center text-white">Private Jet Charter</h3>
+                                                    <a href="#" class="btn btn-primary btn-contact mt-4">Explore Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item service-box">
+                                        <div class="service-grid">
+                                            <img src="images/service-slider2.png" alt="">
+                                            <div class="service-grid-content text-center">
+                                                <h3 class="text-center">Corporate Aircraft Hire</h3>
+                                            </div>
+                                            <div class="service-grid-content-hover">
+                                                <div class="hover-content">
+                                                    <h3 class="text-center text-white">Corporate Aircraft Hire</h3>
+                                                    <a href="#" class="btn btn-primary btn-contact mt-4">Explore Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item service-box">
+                                        <div class="service-grid">
+                                            <img src="images/service-slider3.png" alt="">
+                                            <div class="service-grid-content text-center">
+                                                <h3 class="text-center">Group Air Charters</h3>
+                                            </div>
+                                            <div class="service-grid-content-hover">
+                                                <div class="hover-content">
+                                                    <h3 class="text-center text-white">Group Air Charters</h3>
+                                                    <a href="#" class="btn btn-primary btn-contact mt-4">Explore Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item service-box">
+                                        <div class="service-grid">
+                                            <img src="images/service-slider1.png" alt="">
+                                            <div class="service-grid-content text-center">
+                                                <h3 class="text-center">Helicopter Services</h3>
+                                            </div>
+                                            <div class="service-grid-content-hover">
+                                                <div class="hover-content">
+                                                    <h3 class="text-center text-white">Helicopter Services</h3>
+                                                    <a href="#" class="btn btn-primary btn-contact mt-4">Explore Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item service-box">
+                                        <div class="service-grid">
+                                            <img src="images/service-slider1.png" alt="">
+                                            <div class="service-grid-content text-center">
+                                                <h3 class="text-center">Private Jet Charter</h3>
+                                            </div>
+                                            <div class="service-grid-content-hover">
+                                                <div class="hover-content">
+                                                    <h3 class="text-center text-white">Private Jet Charter</h3>
+                                                    <a href="#" class="btn btn-primary btn-contact mt-4">Explore Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="container">
+            <div class="explore-top">
+                <div class="row">
+                    <div class="col-md-9">
+                        <span>WE ARE THE BEST</span>
+                        <h2>Available Aircraft</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna <br> aliquyam erat, sed diam voluptua. </p>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" class="btn btn-primary btn-contact float-md-end">Explore All</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 mb-4">
+                   <div class="card-item">
+                       <div class="row">
+                           <div class="col-xl-4">
+                                <div class="card-bg" style="background-image: url('images/aircraft1.png');"></div>
+                            </div>
+                            <div class="col-xl-8 d-flex align-items-center">
+                              <div class="card-body">
+                                <span>5 PASSENGERS</span>
+                                <h4 class="card-title">King Air B200GT</h4>
+                                <p class="mt-2">Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy eirmod <br> tempor invidunt ut labore.</p>
+                                <a href="#" class="explore-link"><img src="images/arrow-right.png" alt=""></a>
+                            </div>
+                        </div>
+                       </div>
+                   </div> 
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card-item">
+                       <div class="row">
+                           <div class="col-xl-4">
+                                <div class="card-bg" style="background-image: url('images/aircraft2.png');"></div>
+                            </div>
+                            <div class="col-xl-8 d-flex align-items-center">
+                              <div class="card-body">
+                                <span>12 PASSENGERS</span>
+                                <h4 class="card-title">Citation CJ2+</h4>
+                                <p class="mt-2">Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy eirmod <br> tempor invidunt ut labore.</p>
+                                <a href="#" class="explore-link"><img src="images/arrow-right.png" alt=""></a>
+                            </div>
+                        </div>
+                       </div>
+                   </div> 
+                </div>
+                <div class="col-md-6 mb-4">
+                   <div class="card-item">
+                       <div class="row">
+                           <div class="col-xl-4">
+                                <div class="card-bg" style="background-image: url('images/aircraft3.png');"></div>
+                            </div>
+                            <div class="col-xl-8 d-flex align-items-center">
+                              <div class="card-body">
+                                <span>9 PASSENGERS</span>
+                                <h4 class="card-title">Gulfstream G650ER</h4>
+                                <p class="mt-2">Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy eirmod <br> tempor invidunt ut labore.</p>
+                                <a href="#" class="explore-link"><img src="images/arrow-right.png" alt=""></a>
+                            </div>
+                        </div>
+                       </div>
+                   </div> 
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card-item">
+                       <div class="row">
+                           <div class="col-xl-4">
+                                <div class="card-bg" style="background-image: url('images/aircraft4.png');"></div>
+                            </div>
+                            <div class="col-xl-8 d-flex align-items-center">
+                              <div class="card-body">
+                                <span>16 PASSENGERS</span>
+                                <h4 class="card-title">Cessna Citation Mustang</h4>
+                                <p class="mt-2">Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy eirmod <br> tempor invidunt ut labore.</p>
+                                <a href="#" class="explore-link"><img src="images/arrow-right.png" alt=""></a>
+                            </div>
+                        </div>
+                       </div>
+                   </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center counter-grid" data-aos="fade-up">
+                        <div class="flex-shrink-0">
+                            <img class="img-fluid" src="images/counter1.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-1">Happy Clients</h5>
+                            <h2 data-toggle="counter-up">2500+</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center counter-grid" data-aos="fade-down">
+                        <div class="flex-shrink-0">
+                            <img class="img-fluid" src="images/counter2.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-1">Flight Total</h5>
+                            <h2 data-toggle="counter-up">2000+</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center counter-grid" data-aos="fade-up">
+                        <div class="flex-shrink-0">
+                            <img class="img-fluid" src="images/counter3.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-1">Years Of Experience</h5>
+                            <h2 data-toggle="counter-up">10+</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center counter-grid" data-aos="fade-down">
+                        <div class="flex-shrink-0">
+                            <img class="img-fluid" src="images/counter4.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-1">Destination Listed</h5>
+                            <h2 data-toggle="counter-up">100+</h2>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center counter-grid" data-aos="fade-up">
+                        <div class="flex-shrink-0">
+                            <img class="img-fluid" src="images/counter1.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-1">Happy Clients</h5>
+                            <h2 class="count" data-count="2500">0</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center counter-grid" data-aos="fade-down">
+                        <div class="flex-shrink-0">
+                            <img class="img-fluid" src="images/counter2.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-1">Flight Total</h5>
+                            <h2 class="count" data-count="2000">0</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center counter-grid" data-aos="fade-up">
+                        <div class="flex-shrink-0">
+                            <img class="img-fluid" src="images/counter3.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-1">Years Of Experience</h5>
+                            <h2 class="count" data-count="10">0</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center counter-grid" data-aos="fade-down">
+                        <div class="flex-shrink-0">
+                            <img class="img-fluid" src="images/counter4.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-1">Destination Listed</h5>
+                            <h2 class="count" data-count="100">0</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="video-section">
+        <div class="container">
+            <div class="video-container">
+                <iframe width="100%" height="495" src="https://www.youtube.com/embed/AZEUPUI-Pcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature">
+        <div class="container">
+            <div class="explore-top">
+                <div class="row">
+                    <div class="col-md-9">
+                        <span>FEATURED</span>
+                        <h2>Destinations</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna <br> aliquyam erat, sed diam voluptua. </p>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" class="btn btn-primary btn-contact float-md-end">Explore All</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row destination-row mt-5">
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <div class="destination-grid">
+                                <img src="images/destination1.png" alt="" class="w-100">
+                                <div class="destination-title">
+                                    <h4 class="text-white">Nelson Tasman</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="destination-grid">
+                                <img src="images/destination2.png" alt="" class="w-100">
+                                <div class="destination-title">
+                                    <h4 class="text-white">Auckland</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="destination-grid">
+                                <img src="images/destination3.png" alt="" class="w-100">
+                                <div class="destination-title">
+                                    <h4 class="text-white">Queenstown</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="destination-grid">
+                                <img src="images/destination4.png" alt="" class="w-100">
+                                <div class="destination-title">
+                                    <h4 class="text-white">Christchurch</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="destination-grid">
+                        <img src="images/destination5.png" alt="" class="w-100">
+                        <div class="destination-title">
+                            <h4 class="text-white">Nelson Tasman</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class="container-fluid">
+            <div class="container contact px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-7 ps-lg-0 jet-img" data-aos="fade-right">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute img-fluid w-100 h-100 jet-img" src="images/jet.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 contact-text">
+                        <div class="px-lg-5 pe-lg-0">
+                            <h2>Contact us to get a custom <br> quote within an hour</h2>
+                            <form class="contact-form">
+                                <div class="col-12 mb-3">
+                                    <input type="text" class="form-control border-0" placeholder="Name">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <input type="text" class="form-control border-0" placeholder="Email Address">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <input type="text" class="form-control border-0" placeholder="Phone Number">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <textarea class="form-control border-0" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="footer-grid">
+                                <img src="images/footer-logo.png" alt="">
+                                <p class="mt-4 pt-2">Lorem ipsum dolor sit amet, consetetur elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consetetur elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-grid">
+                                <h4>Company</h4>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Charter Flights</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-grid">
+                                <h4>Services</h4>
+                                <ul class="service-list">
+                                    <li><a href="#">Private Jet Charter</a></li>
+                                    <li><a href="#">Corporate Aircraft Hire</a></li>
+                                    <li><a href="#">Group Air Charters</a></li>
+                                    <li><a href="#">Helicopter Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-grid">
+                                <h4>Contact Us</h4>
+                                <p class="mb-2">Feel free to get in touch with us via phone or send us a message</p>
+                                <div class="d-flex footer-contact">
+                                    <div class="flex-shrink-0">
+                                        <img class="img-fluid" src="images/address.png" alt="">
+                                    </div>
+                                    <div class="ms-3">
+                                        <p class="mb-1">Demo address please put your address, 1234</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex footer-contact">
+                                    <div class="flex-shrink-0">
+                                        <img class="img-fluid" src="images/mail.svg" alt="">
+                                    </div>
+                                    <div class="ms-3">
+                                        <p class="mb-1"><a href="mailto:info@demoemail.com" class="text-white">info@demoemail.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex footer-contact">
+                                    <div class="flex-shrink-0">
+                                        <img class="img-fluid" src="images/phone.svg" alt="">
+                                    </div>
+                                    <div class="ms-3">
+                                        <p class="mb-1"><a href="tel:0123456789" class="text-white">0123 456 789</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>© Copyright 2023. All Right Reserved</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-inline footer-social-icon text-md-end">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- Owl Js -->
+    <script src="js/owl.carousel.js"></script>
+    <!-- Counter Js -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+     <!-- Animation  Js -->
+    <script src="js/aos.js"></script>
+    <!-- Custom  Js -->
+    <script src="js/custom.js"></script>
+    <script>
+     
+  </script>
+</body>
+</html>
